@@ -13,10 +13,12 @@
     />
   </head>
   <body>
-    <header class="hero">
+    <header>
       <nav>
-        <div class="logo">Rahma Charity Foundation</div>
-
+        <div class="logo">R C F</div>
+         <nav>
+      
+   
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -25,25 +27,24 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
-      <div class="hero-content" id="home">
-        <h1>Spreading Hope Through Islamic Charity</h1>
-
-        <p>
-          Rahma Charity Foundation supports vulnerable families through food,
-          education, clean water, and humanitarian aid guided by Islamic values.
-        </p>
-
-        <a href="#donate" class="btn">Donate Now</a>
-      </div>
     </header>
+
+        <div class="hero">
+            <div class="hero-content" id="home">
+            <h1>Spreading Hope Through Islamic Charity</h1>
+
+            <p>
+              Rahma Charity Foundation supports vulnerable families through food,
+              education, clean water, and humanitarian aid guided by Islamic values.
+            </p>
+
+            <a href="#donate" class="btn">Donate Now</a>
+          </div>
+      </div>
 
     <section class="about" id="about">
       <div class="about-image">
-        <img
-          src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop"
-          alt="Charity Image"
-        />
+        <img src="image 3.jpg" alt="Charity Image" />
       </div>
 
       <div class="about-text">
@@ -66,35 +67,17 @@
       <h2 class="section-title">Our Charity Gallery</h2>
 
       <div class="gallery-container">
-        <img
-          src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop"
-          alt="Charity Work"
-        />
+        <img src="image 4.jpg" alt="Charity Work" />
 
-        <img
-          src="https://images.unsplash.com/photo-1469571486292-b53601020f00?q=80&w=1200&auto=format&fit=crop"
-          alt="Helping Children"
-        />
+        <img src="image 5.jpg" alt="Helping Children" />
 
-        <img
-          src="https://images.unsplash.com/photo-1524069290683-0457abfe42c3?q=80&w=1200&auto=format&fit=crop"
-          alt="Community Support"
-        />
+        <img src="image 6.jpg" alt="Community Support" />
 
-        <img
-          src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop"
-          alt="Donation Program"
-        />
+        <img src="image 6.jpg" alt="Donation Program" />
 
-        <img
-          src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop"
-          alt="Donation Program"
-        />
+        <img src="image 5.jpg" alt="Donation Program" />
 
-        <img
-          src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop"
-          alt="Donation Program"
-        />
+        <img src="image 4.jpg" alt="Donation Program" />
       </div>
     </section>
 
@@ -139,31 +122,63 @@
 
         <div class="payment-card">
           <h3>📱 Mobile Money</h3>
-          <p><strong>Orange Money:</strong> +232 00 000000</p>
-          <p><strong>Afrimoney:</strong> +232 00 000000</p>
+          <p><strong>Orange Money:</strong> +232 74007003</p>
+          <p><strong>Afrimoney:</strong> +232 80200100</p>
         </div>
 
-        <div class="payment-card">
-          <h3>🌍 Online Donation</h3>
-          <p>Donate securely using PayPal, Visa, or Mastercard.</p>
-          <a href="#" class="btn">Donate Online</a>
-        </div>
-      </div>
 
-      <br />
-
-      <a href="#contact" class="btn">Become a Donor</a>
     </section>
 
     <section class="contact" id="contact">
       <h2 class="section-title">Contact Us</h2>
 
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea rows="5" placeholder="Your Message"></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+      <div class="contact-container">
+        <!-- Contact Form Module -->
+        <form action="#" method="POST">
+          <input type="text" placeholder="Your Full Name" required />
+          <input type="email" placeholder="Your Email Address" required />
+          <input type="tel" placeholder="Your Phone Number (Optional)" />
+
+          <select required>
+            <option value="" disabled selected>
+              Select a Reason for Inquiry
+            </option>
+            <option value="donation">General Donation Query</option>
+            <option value="zakat">Zakat & Sadaqah Distribution</option>
+            <option value="program">
+              Sponsoring a Program (Water/Food/Orphans)
+            </option>
+            <option value="volunteer">Volunteering Opportunities</option>
+            <option value="other">Other Inquiry</option>
+          </select>
+
+          <textarea
+            rows="5"
+            placeholder="Write your message here..."
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- WhatsApp Quick Chat Feature -->
+        <div class="quick-connect">
+          <h3>Prefer Instant Messaging?</h3>
+          <p>
+            Chat directly with our support team on WhatsApp for quick answers
+            regarding donations and ongoing projects.
+          </p>
+
+          <!-- Tip: Replace +23274007003 with your foundation's actual phone number below -->
+          <a
+            href="https://wa.me/23274007003?text=Assalamu%20Alaikum,%20I%20would%20like%20to%20know%20more%20about%20supporting%20the%20Rahma%20Charity%20Foundation."
+            class="whatsapp-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="whatsapp-icon">💬</span> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
     </section>
 
     <footer>
